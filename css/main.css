@@ -272,10 +272,11 @@ section {
 	position: relative;
 }
 
-.full-banner::before {
+.full-banner:before {
 	content: '';
 	position: absolute;
-	border: 1px solid #ffffff 30px 30px 50px 50px;
+	border: 1px solid #ffffff;
+	border-width: 30px 30px 50px 50px;
 	z-index: 1;
 }
 
@@ -303,7 +304,7 @@ section {
 	line-height: 1;
 }
 
-.full-banner-sidebar h4::after {
+.full-banner-sidebar h4:after {
 	content: '';
 	width: 100px;
 	height: 1px;
@@ -324,7 +325,7 @@ section {
 	letter-spacing: 3px;
 }
 
-.full-banner-sidebar .btn.btn-default{
+.full-banner-sidebar .btn.btn-default {
 	margin-top: 50px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
